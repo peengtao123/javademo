@@ -12,6 +12,7 @@
 
     <modules>
         <module>httpserver</module>
+        <module>hello</module>
     </modules>
 
 </project>
