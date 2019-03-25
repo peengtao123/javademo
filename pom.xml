@@ -11,7 +11,7 @@
     <name>javademo</name>
 
     <modules>
-        <module>httpserver</module>
+        <module>httpServer</module>
         <module>hello</module>
     </modules>
 
