@@ -25,7 +25,7 @@ public class HTTPServer {
                     System.out.println(URLDecoder.decode(requestHeader));
                 }
 
-                //发送回执
+                //发送回执啊
                 PrintWriter pw = new PrintWriter(socket.getOutputStream());
 
                 pw.println("HTTP/1.1 200 OK");
