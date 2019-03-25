@@ -13,6 +13,7 @@
     <modules>
         <module>httpServer</module>
         <module>hello</module>
+        <module>springStart</module>
     </modules>
 
 </project>
