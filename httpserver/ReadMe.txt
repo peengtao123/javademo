@@ -1,4 +1,4 @@
-Camel Java Router Project
+httpServer Project
 =========================
 
 To build this project use
@@ -8,8 +8,4 @@ To build this project use
 To run this project from within Maven use
 
     mvn exec:java
-
-For more help see the Apache Camel documentation
-
-    http://camel.apache.org/
 
