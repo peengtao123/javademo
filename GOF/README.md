@@ -22,7 +22,7 @@
 ## 20、[职责链模式](Proxy/README.md)
 ## 21、[桥接模式](Proxy/README.md)
 ## 22、[访问者模式](Proxy/README.md)
-## 23、[代理模式](Proxy/README.md)
+## 23、[简单工厂](Proxy/README.md)
 # 常见面向对象设计原则
 ## 设计模式和设计原则
 
