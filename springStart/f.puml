@@ -1,0 +1,11 @@
+@startuml
+
+package b{
+    Class Person
+    Class User
+    Interface Set
+    Set <|-- User
+    Person o===|> Set
+}
+
+@enduml

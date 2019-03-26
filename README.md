@@ -5,4 +5,3 @@
 ## 3. [spring入门](springStart/README.md)
 ## 4. [设计模式](GOF/README.md)
 基于java类配置bean信息，初始化一个上下文，然后获取一个bean，并调用方法
-
