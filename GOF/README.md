@@ -25,7 +25,7 @@
 ## 23、[外观模式](Facade/README.md)
 # 常见面向对象设计原则
 ## 设计模式和设计原则
-
+设计原则是思想上的指导，而设计模式是实现的手段。
 ## 常见面向对象设计原则
 * 单一职责SRP(single responsibility principle)
 * 开放——关闭原则OCP(open-closed Principle)
