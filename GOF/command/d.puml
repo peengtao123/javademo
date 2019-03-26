@@ -1,0 +1,23 @@
+@startuml
+
+package "产品线" {
+HTTP - [First Component]
+[Another Component]
+}
+
+node api网关{
+    HTTP --> [负载均衡]
+}
+
+package "Other Groups" {
+FTP - [Second Component]
+
+[负载均衡] --> FTP
+}
+database "mysql" {
+    frame "master" {
+        [DB]
+    }
+}
+[Second Component] --> [DB]
+@enduml

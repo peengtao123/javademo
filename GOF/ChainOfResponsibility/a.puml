@@ -1,0 +1,13 @@
+@startuml
+
+
+interface IWomen
+interface Handler
+
+IWomen <|--Women
+IWomen <--Handler
+Handler <|--Father
+Handler <|--Husband
+Handler <|--Son
+
+@enduml

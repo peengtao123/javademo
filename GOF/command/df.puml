@@ -1,7 +1,24 @@
 @startuml
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
+Class Client{
+    public String name
+    +void  assemble()
+}
+Interface Set{
++void execute()
+}
+Class B{
+}
+Set<|.. Client:实现
+B<|--Client
+Human *-- Brain
+Company o-- Human
+Human --> Water:关联
+Human ..> Cigarette:依赖
 
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
+namespace net #DDDD2D {
+    .BaseClass <|-- Person
+    Meeting o-- Person
+    .BaseClass <|- Meeting
+}
+client <|--net.Person:泛化
 @enduml

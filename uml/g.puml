@@ -16,4 +16,10 @@ List .. NOTE
 NOTE .. ArrayList
 
 List <|-- ArrayList
+
+Class Person
+note left:左边的注释
+Interface Set<<general>>
+note right:右边的注释
+note top of Person:Person的上边注释
 @enduml

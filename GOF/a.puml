@@ -1,0 +1,12 @@
+@startuml
+title:流程图
+start
+:hello;
+if(判断条件) then (yes)
+:执行yes操作;
+else (no)
+:执行no操作;
+endif
+stop
+
+@enduml
