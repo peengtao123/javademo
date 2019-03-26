@@ -1,0 +1,15 @@
+@startuml
+hide footbox
+ "小新" as A -> "美芽" as B : A <i>我要零花钱</i> 10元
+  note right of  B
+    没有 <back:cadetblue><size:18>零钱了</size></back>
+    <u>不信</u> 给你看.
+  end note
+  note left of A
+    <u:red>小新</u> 认真 <color #118888>思考</color>
+    <b><color purple>不太相信</color> <s:red>母亲的话</strike>哦！</b>
+  end note
+  note over A, B
+    <w:#FF33FF>但事实</w> 是这里出现了图片哦 <img ./src/main/res/mipmap-mdpi/ic_launcher.png>
+  end note
+@enduml
